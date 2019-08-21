@@ -9,14 +9,14 @@ const styles = StyleSheet.create({
     }
 });
 
-class WelcomeScreen extends Component {
+class ProfileScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Welcome To App</Text>
+                <Text>Profile</Text>
             </View>
-        );
+        )
     }
 }
 
-export default WelcomeScreen;
+export default ProfileScreen;
